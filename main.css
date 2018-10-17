@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+}
+
+.title {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 30px;
+    background-color: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ford-mustang {
+    height: calc(100vh - 50px);
+    background-image: url('./img/ford.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*list*/
+.list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff0000;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/*items*/
+.list-item {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    mix-blend-mode: hue;
+}
+
+.list-item:nth-child(1) {
+    background-color: #ff5500;
+}
+
+.list-item:nth-child(2) {
+    background-color: #5500ff;
+}
+
+.list-item:nth-child(3) {
+    background-color: #00bebe;
+}
+
+.list-item:nth-child(4) {
+    background-color: #44cc00;
+}
+
+.list-item:nth-child(5) {
+    background-color: #e645a0;
+}
+
+/*hover item*/
+.list-item:hover:nth-child(1) {
+    box-shadow: 0 0 0 2500px #ff5500;
+}
+
+.list-item:hover:nth-child(2) {
+    box-shadow: 0 0 0 2500px #5500ff;
+}
+
+.list-item:hover:nth-child(3) {
+    box-shadow: 0 0 0 2500px #00bebe;
+}
+
+.list-item:hover:nth-child(4) {
+    box-shadow: 0 0 0 2500px #44cc00;
+}
+
+.list-item:hover:nth-child(5) {
+    box-shadow: 0 0 0 2500px #e645a0;
+}
